@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Clock</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css"
+    />
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="icon" href="img/fv.png" type="image/x-icon" />
+
+  </head>
+  <body>
+    <div class="wrapper">
+      <div class="container">
+        <div class="stopwatch-con">
+          <h3 class="stopwatch">
+            <span id="minutes">00</span>:<span id="seconds">00</span>:<span
+              id="tens"
+              >00</span
+            >
+          </h3>
+        </div>
+        <div class="btns">
+          <button class="startBtn" id="btn-start">Start</button>
+          <button class="stopBtn" id="btn-stop">Stop</button>
+          <button class="resetBtn" id="btn-reset">Reset</button>
+        </div>
+      </div>
+      <div class="menu">
+        <div class="alarm item">
+          <a href="alarm.html"
+            ><i class="fa-solid fa-bell"></i>
+            <p>Alarm</p></a
+          >
+        </div>
+        <div class="clock item">
+          <a href="index.html"
+            ><i class="fa-solid fa-clock"></i>
+            <p>Clock</p></a
+          >
+        </div>
+        <div class="timer item">
+          <a href="timer.html">
+            <i class="fa-solid fa-stopwatch-20"></i>
+            <p>Timer</p></a
+          >
+        </div>
+      </div>
+    </div>
+
+    <script src="js/stopwatch.js"></script>
+    <script src="https://unpkg.com/boxicons@2.1.2/dist/boxicons.js"></script>
+  </body>
+</html>
